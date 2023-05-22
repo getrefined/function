@@ -52,14 +52,13 @@ body {
 
 header {
 	margin-top: 8rem;
-	margin-bottom: auto;
+	// margin-bottom: auto;
 	text-align: center;
 }
 
 main {
-	margin-top: auto;
+	// margin-top: auto;
 	text-align: center;
-
 	margin-bottom: 8rem;
 }
 
@@ -82,14 +81,16 @@ h2 {
 		0.9199999999999999rem + 1.6500000000000001vw,
 		2.9rem
 	);
-	color: var(--clr-red);
+	// color: var(--clr-red);
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-family: "MarkMedium", sans-serif;
 }
 
 .btn {
-	background-color: black;
+	// background-color: black;
+	background-color: var(--clr-red);
 	padding: 0.5rem 2rem;
 	display: inline-block;
 	font-size: 1.25rem;
@@ -97,6 +98,7 @@ h2 {
 	letter-spacing: 2px;
 	color: #fff;
 	text-decoration: none;
+	margin-bottom: 4rem;
 }
 
 p {
@@ -105,8 +107,9 @@ p {
 	font-size: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
 	font-family: "MarkMedium", sans-serif;
 	color: black;
-	margin-bottom: 1rem;
+	margin-bottom: 4rem;
 	color: #fff;
+	margin-top: 4rem;
 }
 
 .background-vid {
